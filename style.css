@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -11,9 +12,41 @@ body {
 main {
     margin: 2rem auto;
 }
-.create {
+.create, .postsWrap {
     margin-top: 5rem;
 }
+
+.postsWrap {
+    background-color: #1194cd;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .2rem;
+
+    padding: 1rem .5rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: .2rem;
+    width: 90%;
+    margin-top: .8rem;
+    padding: .5rem 1.5rem;
+}
+
+.post__title {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.post__text {
+    font-size: 1rem;
+}
+
 img {
     width: 100%;
     max-width: 100%;

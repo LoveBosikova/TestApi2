@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #bfe0ee;
+    background: linear-gradient(to right,#b6deef, #85d4ef, #1194cd);
+}
+
+main {
+    margin: 2rem auto;
+}
+.create {
+    margin-top: 5rem;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 35%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+input:placeholder-shown + label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    color: #1194cd;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 3rem auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 25%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+button:active {
+    width: 26.5%;
+    color: #02a3e8;
+}

@@ -12,6 +12,10 @@ body {
 main {
     margin: 2rem auto;
 }
+
+h1 {
+    color:#fff;
+}
 .create, .postsWrap {
     margin-top: 5rem;
 }
@@ -55,7 +59,6 @@ img {
 label {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    margin-left: 2rem;
     margin-top: 0.7rem;
     display: block;
     transition: all 0.3s;
@@ -103,4 +106,28 @@ button {
 button:active {
     width: 26.5%;
     color: #02a3e8;
+}
+
+@media (max-width: 950px) {
+    .postsWrap, input {
+        width: 80%;
+    }
+
+    button {
+        width: 50%;
+    }
+
+    button:active {
+        width: 52%;
+    }
+}
+
+@media (max-width: 450px) {
+    button {
+        width: 70%;
+    }
+
+    button:active {
+        width: 72%;
+    }
 }
